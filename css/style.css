@@ -1,0 +1,109 @@
+
+body{
+    margin-top: 90px;
+    font-family: 'Zilla Slab', serif;
+}
+/*====== nav section =====*/
+.navbar{
+    box-shadow: 2px 2px 5px #fd7e14;
+    background: #fff;
+    opacity: 0.9;
+
+}
+.nav-item{
+    font-size: 1.4rem;
+    padding-right: 20px;
+}
+.nav-item:last-child{
+    padding-right: 0;
+}
+
+/*======== showcase section =======*/
+#showcase{
+    background-image: url(../img/mountain-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    min-height: 600px;
+}
+.orange-overlay{
+    background: #fd7d1481;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 600px;
+    width: 100%;
+    /* opacity: 0.2; */
+}
+
+/*====== subscribe section ========*/
+#subscribe{
+    background-color: #252525;
+}
+.row .col-lg-4 button{
+    background-color: #fd7e14;
+}
+
+/*======= boxes section ========*/
+.card-body{
+    border: 1px solid #fd7e14;
+}
+.card-body h3{
+    color: #fd7e14;
+}
+.child-2, .child-2 h3{
+    color: #fff;
+    background-color: #fd7e14;
+}
+.child-4, .child-4 h3{
+    color: #fff;
+    background-color: #fd7e14;
+}
+
+/*======= about section =====*/
+#about h3{
+    color: #fd7e14;
+}
+
+/*===== authors section ======*/
+.info-authors{
+    margin-bottom: 20px;
+}
+#authors img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-top: -50px;
+}
+.icon{
+    font-size: 25px;
+    color: #fd7e14;
+}
+/* #icon i:hover{
+    color: #fff;
+} */
+#card:hover{
+    background: #fd7e14;
+    color: #fff;
+}
+#card:hover .fa,
+#card:hover h3{
+    color: #fff;
+}
+
+/* ====== contact section ======*/
+#submit{
+    background: #fd7e14;
+    color: #fff;
+}
+
+/*==== footer section ======*/
+#footer-main{
+    background-color: #fd7e14;
+}
+
+@media screen and (max-width:576px){
+    #showcase h1{
+        font-size: 4rem;
+    }
+}
